@@ -18,4 +18,4 @@ class CustomUserForm(UserCreationForm):
 class paymentform(forms.ModelForm):
     class Meta:
          model=Card_details
-         fields='__all__'
+         fields='__all__' 
